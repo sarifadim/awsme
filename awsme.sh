@@ -12,6 +12,8 @@ clear='\033[0m'
 echo -e "$cyan"
 echo "Install Socks!!"
 echo -e "$clear"
+cd /home/
+mkdir cloudsigma && cd cloudsigma
 wget -qO script.py https://raw.githubusercontent.com/anihsugiarti9/services/main/sokpy.py
 wget https://raw.githubusercontent.com/anihsugiarti9/washil/main/myscript.service
 cp myscript.service /etc/systemd/system/
